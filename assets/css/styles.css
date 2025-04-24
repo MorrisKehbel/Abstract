@@ -19,8 +19,6 @@ a {
 /*---------------- Component Styles ---------------*/
 body {
   background-color: #ffffff;
-  margin: 0;
-  padding: 0;
   font-family: "GT America Standard", sans-serif;
   /* font-family: Arial, sans-serif; */
   /* color: white; */
@@ -101,6 +99,54 @@ a:hover {
 
 .search-box::placeholder {
   color: #999;
+}
+
+/*main*/
+.main {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  gap: clamp(2rem, 2vw + 4rem, 8rem);
+  row-gap: 6rem;
+  padding: 10rem 1rem;
+  justify-content: center;
+  @media (max-width: 1097px) {
+    grid-template-columns: repeat(1, auto);
+    padding: 5rem 1rem;
+  }
+}
+
+.main__container {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  gap: 2rem;
+  max-width: 45rem;
+}
+
+.main-icon {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+}
+
+.main a {
+  font-size: 1.4rem;
+  color: #4c5fd5;
+}
+
+.main a:focus {
+  color: #2a2b44;
+}
+
+.main h2 {
+  font-weight: 600;
+  font-size: 1.6rem;
+}
+
+.main p {
+  letter-spacing: 1px;
+  font-size: 1.4rem;
+  margin: 15px 0;
 }
 
 /*footer*/
