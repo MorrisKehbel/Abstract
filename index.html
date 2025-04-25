@@ -4,24 +4,34 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="icon" href="assets/img/logo.svg" type="image/svg+xml" />
     <title>Abstract</title>
   </head>
   <body>
-    <header class="site-header">
-      <div class="logo">
-        <div class="logo-icon"></div>
-        <span class="logo-text">Help Center</span>
-      </div>
-      <div class="auth-buttons">
-        <button class="request-btn">Submit a request</button>
-        <button class="sign-in-btn">Sign in</button>
-      </div>
-    </header>
+    <header>
+      <nav class="site-header">
+        <div class="header-logo">
+          <a href="#" class="logo">
+            <img src="assets/img/logo.svg" alt="Logo" class="abstract-logo2" />
+            <h3 class="logo-text">Abstract</h3>
+          </a>
 
-    <section class="hero">
-      <h1>How can we help?</h1>
-      <input type="text" placeholder="Search" class="search-box" />
-    </section>
+          <span class="divider"></span>
+          <span class="logo-text">Help Center</span>
+        </div>
+        <div class="auth-buttons">
+          <button class="request-btn">Submit a request</button>
+          <button class="sign-in-btn">Sign in</button>
+        </div>
+      </nav>
+      <section class="hero">
+        <h1>How can we help?</h1>
+        <div class="search-box">
+          <input type="text" placeholder="Search" />
+          <span class="arrow">➜</span>
+        </div>
+      </section>
+    </header>
     <main>
       <section class="main">
         <div class="main__container">
@@ -34,6 +44,7 @@
               class="main-icon"
             />
           </div>
+
           <div class="main__container-text">
             <h2>Branches</h2>
             <p>
@@ -168,7 +179,7 @@
         </ul>
       </div>
       <div class="footer__row5">
-        <img src="assets/img/logo.svg" alt="Logo" class="footer_row5-logo" />
+        <img src="assets/img/logo.svg" alt="Logo" class="abstract-logo" />
         <ul>
           <li>&copy; Copyright 2025</li>
           <li>Abstract Studio Design, Inc.</li>

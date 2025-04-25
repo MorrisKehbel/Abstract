@@ -4,20 +4,26 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../assets/css/styles.css" />
+    <link rel="icon" href="../assets/img/logo.svg" type="image/svg+xml" />
     <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
     <title>Abstract</title>
   </head>
   <body>
-    <header class="site-header">
-      <div class="logo">
-        <div class="logo-icon"></div>
-        <span class="logo-text">Help Center</span>
+    <nav class="site-header">
+      <div class="header-logo">
+        <a href="../index.html" class="logo">
+          <img src="../assets/img/logo.svg" alt="Logo" class="abstract-logo2" />
+          <h3 class="logo-text">Abstract</h3>
+        </a>
+
+        <span class="divider"></span>
+        <span class="logo-text">Dashboard</span>
       </div>
       <div class="auth-buttons">
         <button class="request-btn">Submit a request</button>
         <button class="sign-in-btn">Sign in</button>
       </div>
-    </header>
+    </nav>
     <main class="dashboard">
       <nav class="dashboard__sidebar">
         <div>
@@ -127,8 +133,15 @@
             <p class="trend-sub">since last year</p>
           </div>
         </div>
-        <div class="dashboard__content-statistics">
-          <h2>add something here</h2>
+        <div class="dashboard__content-roi">
+          <div class="roi-content">
+            <h2>Return on Investment</h2>
+            <div class="roi-details">
+              <span class="roi-number">123%</span>
+              <p>Investment: $10,000</p>
+              <p>Revenue: $12,300</p>
+            </div>
+          </div>
         </div>
       </section>
     </main>
@@ -143,7 +156,7 @@
         <h2>Resources</h2>
         <ul>
           <li><a href="#">Blog</a></li>
-          <li><a href="#">Help Center</a></li>
+          <li><a href="../index.html">Help Center</a></li>
           <li><a href="#">Release Notes</a></li>
           <li><a href="#">Status</a></li>
         </ul>
@@ -172,7 +185,7 @@
         </ul>
       </div>
       <div class="footer__row5">
-        <img src="assets/img/logo.svg" alt="Logo" class="footer_row5-logo" />
+        <img src="../assets/img/logo.svg" alt="Logo" class="abstract-logo" />
         <ul>
           <li>&copy; Copyright 2025</li>
           <li>Abstract Studio Design, Inc.</li>
